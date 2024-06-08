@@ -1,0 +1,24 @@
+{
+  "header": {
+    "login": "Log in"
+  },
+  "welcome": {
+    "title": "Welcome to our astrological world",
+    "description": "This is where the stars align to reveal the secrets of your future! Sign up and join our community, where every day is a new opportunity to unlock your potential and manage your life with the help of astrology. May the stars always shine on your path!",
+    "registration": "Sign up"
+  },
+  "services": {
+    "horoscope": {
+      "title": "Daily horoscope",
+      "description": "Get daily forecasts for your zodiac sign right here! Our site offers personalised horoscopes to help you manage your day and plan for future events with confidence. Find out what's in store for you in love, career, finances and much more with our accurate forecasts!"
+    },
+    "forecasts": {
+      "title": "Personal forecasts",
+      "description": "Discover the secrets of your future with our personalised forecasts! Our site analyses your date, time and place of birth to provide you with a unique forecast, according to your personal situation. Find out about your opportunities, challenges and recommendations for success in life!"
+    },
+    "taro": {
+      "title": "Tarot spreads",
+      "description": "Discover the answers to your questions with our Tarot readings. Our site offers a variety of tarot card reading techniques so that you can find answers and get relevant advice. Let the Tarot guide you on the path to discovery and inner knowledge."
+    }
+  }
+}

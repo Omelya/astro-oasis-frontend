@@ -1,0 +1,10 @@
+html {
+    scrollbar-width: none;
+}
+
+body {
+    background-color: #232B73;
+    background-image: url("../static/png/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
