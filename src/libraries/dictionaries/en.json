@@ -7,6 +7,16 @@
     "description": "This is where the stars align to reveal the secrets of your future! Sign up and join our community, where every day is a new opportunity to unlock your potential and manage your life with the help of astrology. May the stars always shine on your path!",
     "registration": "Sign up"
   },
+  "signup": {
+    "title": "Sign up",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Create a password",
+    "confirmPassword": "Confirm a password",
+    "enterName": "Enter your firstname",
+    "enterLastname": "Enter your lastname",
+    "enterBirthDate": "Enter your date of birth",
+    "continue": "Continue"
+  },
   "services": {
     "horoscope": {
       "title": "Daily horoscope",

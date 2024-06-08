@@ -5,6 +5,7 @@ import Taro from "../../../public/static/png/taro.png";
 import {Service} from "@/components/Services/Service";
 import {useI18n} from "@/utils/hooks/useI18n";
 import {StaticImport} from "next/dist/shared/lib/get-img-props";
+import {Stack} from "@mui/material";
 
 type ServiceProps = {
     id: number,
@@ -34,7 +35,7 @@ export const Services = () => {
     const locale = useI18n();
 
     return (
-        <>
+        <Stack direction={'row'} justifyContent={'space-between'}>
 
             {
                 services.map((item) => (
@@ -48,6 +49,6 @@ export const Services = () => {
                 ))
             }
 
-        </>
+        </Stack>
     )
 }
