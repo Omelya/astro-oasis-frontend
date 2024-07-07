@@ -9,13 +9,25 @@
   },
   "signup": {
     "title": "Sign up",
-    "enterEmail": "Enter your email",
-    "enterPassword": "Create a password",
+    "email": "Enter your email",
+    "password": "Create a password",
     "confirmPassword": "Confirm a password",
-    "enterName": "Enter your firstname",
-    "enterLastname": "Enter your lastname",
-    "enterBirthDate": "Enter your date of birth",
-    "continue": "Continue"
+    "firstname": "Enter your firstname",
+    "lastname": "Enter your lastname",
+    "birthDate": "Enter your date of birth"
+  },
+  "signupValidationMessages": {
+    "emailRequired": "Email is required",
+    "notValidEmail": "Email is not valid",
+    "passwordRequired": "Password is required",
+    "firstnameRequired": "Firstname is required",
+    "lastnameRequired": "Lastname is required",
+    "birthDateRequired": "Birthdate is required"
+  },
+  "login": {
+    "title": "Log in",
+    "enterEmail": "enterEmail",
+    "enterPassword": "enterPassword"
   },
   "services": {
     "horoscope": {
@@ -30,5 +42,8 @@
       "title": "Tarot spreads",
       "description": "Discover the answers to your questions with our Tarot readings. Our site offers a variety of tarot card reading techniques so that you can find answers and get relevant advice. Let the Tarot guide you on the path to discovery and inner knowledge."
     }
+  },
+  "buttons": {
+    "continue": "Continue"
   }
 }

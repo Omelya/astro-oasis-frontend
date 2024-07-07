@@ -34,7 +34,7 @@ export default function Welcome() {
                     </Typography>
                 </Stack>
             </Stack>
-            <Button size={'large'} variant={'contained'} href={'/sign-up'}>
+            <Button size={'large'} variant={'contained'} href={'/signup'}>
                 <Typography fontSize={24}>{locale?.welcome.registration}</Typography>
             </Button>
         </BlurStack>
