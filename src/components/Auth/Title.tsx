@@ -16,6 +16,7 @@ export default function Title({
             flexDirection={'row'}
             alignItems={'center'}
             justifyContent={ isAuth ? 'center' : 'space-between' }
+            marginBottom={1}
         >
             <TextItalicBold
                 color={'#FFFFFF'}

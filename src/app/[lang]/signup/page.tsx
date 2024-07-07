@@ -9,7 +9,7 @@ import Title from "@/components/Auth/Title";
 import {AuthInput} from "@/ui/Form/Input";
 import {useFormik} from "formik";
 import {FormControlButton} from "@/components/Auth/FormControlButton";
-import {validationSchema} from "@/utils/validationSchema/authSchema";
+import {signupSchema as validationSchema} from "@/utils/validationSchema/authSchema";
 
 const FIRST_STEP = 1;
 const SECOND_STEP = 2;

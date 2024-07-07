@@ -20,6 +20,7 @@
     "emailRequired": "E-mail має бути заповненим",
     "notValidEmail": "Неправильний e-mail",
     "passwordRequired": "Пароль має бути заповненим",
+    "smallPassword": "Пароль повинен містити мінімум 8 символів",
     "firstnameRequired": "Ім'я має бути заповненим",
     "lastnameRequired": "Прізвище має бути заповненим",
     "birthDateRequired": "Дата народження має бути заповненою"

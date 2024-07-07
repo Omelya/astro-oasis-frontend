@@ -13,6 +13,7 @@ export type SignupFields = 'email'
 export type SignupErrorFields = 'emailRequired'
     | 'notValidEmail'
     | 'passwordRequired'
+    | 'smallPassword'
     | 'firstnameRequired'
     | 'lastnameRequired'
     | 'birthDateRequired';

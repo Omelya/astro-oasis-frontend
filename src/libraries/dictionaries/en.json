@@ -20,6 +20,7 @@
     "emailRequired": "Email is required",
     "notValidEmail": "Email is not valid",
     "passwordRequired": "Password is required",
+    "smallPassword": "Password should be of minimum 8 characters length",
     "firstnameRequired": "Firstname is required",
     "lastnameRequired": "Lastname is required",
     "birthDateRequired": "Birthdate is required"
