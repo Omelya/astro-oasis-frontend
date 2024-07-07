@@ -81,7 +81,13 @@ export default function Signup() {
     }
 
     return (
-        <BlurStack width={'25%'} height={'40%'} margin={'0 auto'} padding={'2%'}>
+        <BlurStack
+            width={'25%'}
+            height={'40%'}
+            margin={'0 auto'}
+            padding={'2%'}
+            alignSelf={'center'}
+        >
             <Title
                 step={step}
                 isAuth={false}

@@ -45,6 +45,7 @@
     }
   },
   "buttons": {
-    "continue": "Далі"
+    "continue": "Далі",
+    "more": "Детальніше"
   }
 }

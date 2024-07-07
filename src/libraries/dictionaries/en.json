@@ -45,6 +45,7 @@
     }
   },
   "buttons": {
-    "continue": "Continue"
+    "continue": "Continue",
+    "more": "More"
   }
 }

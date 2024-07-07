@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import {Typography} from "@mui/material";
-import {ServiceProps} from "@/interfaces/ServiceProps";
+import {ServiceProps} from "@/contracts/interfaces/ServiceProps";
 import {ServiceBox} from "@/ui/Containers/Wrapper";
 
 export const Service: React.FC<ServiceProps> = ({

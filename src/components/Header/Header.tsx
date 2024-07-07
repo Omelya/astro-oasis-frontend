@@ -2,17 +2,14 @@
 
 import React from "react";
 import Image from "next/image";
-
-import { Stack, Typography } from "@mui/material";
-import {Button} from "@/ui/Buttons/Button";
-
-import Logo from '../../../public/static/png/logo.png';
-import {useI18n} from "@/utils/hooks/useI18n";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import { Stack, Typography } from "@mui/material";
+import {HomeHeader} from "@/components/Header/HomeHeader";
+import {AuthHeader} from "@/components/Header/AuthHeader";
+import Logo from '../../../public/static/png/logo.png';
 
 export const Header = () => {
-    const locale = useI18n();
     const path = usePathname();
 
     return (
@@ -23,17 +20,13 @@ export const Header = () => {
                     <Typography color={'#FFFFFF'} fontSize={37}>ASTRO OASIS</Typography>
                 </Stack>
             </Link>
-            <Button href={ path === '/login' ? '/signup' : '/login' }>
-                <Typography color={'#FFFFFF'} fontSize={30}>
 
-                    {
-                        path === '/login'
-                            ? locale?.welcome.registration
-                            : locale?.header.login
-                    }
+            {
+                path.includes('/home')
+                    ? <HomeHeader/>
+                    : <AuthHeader/>
+            }
 
-                </Typography>
-            </Button>
         </Stack>
     )
 }

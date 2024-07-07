@@ -37,5 +37,6 @@ export type Dictionary = {
     services: Record<ServiceTitle, { title: string; description: string }>,
     buttons: {
         continue: 'continue',
+        more: 'more',
     }
 } | null;
