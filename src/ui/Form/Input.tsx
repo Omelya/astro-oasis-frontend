@@ -14,6 +14,9 @@ export const AuthInput = styled(TextField)({
             borderColor: '#C3C3C3',
             borderWidth: '3px',
         },
+        '& fieldset.MuiOutlinedInput-notchedOutline': {
+            borderColor: '#C3C3C3',
+        },
     },
     '& .MuiInputLabel-root': {
         color: '#FFFFFF',
@@ -23,5 +26,8 @@ export const AuthInput = styled(TextField)({
     },
     '&.Mui-error .MuiOutlinedInput-notchedOutline': {
         borderColor: '#C3C3C3',
+    },
+    '& p.Mui-error': {
+        color: '#fbfbfb',
     },
 })
