@@ -7,7 +7,7 @@ export const Wrapper = styled(Container)({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: 20,
+    padding: '0.5rem',
     height: '100%',
     '@media (max-width: 5000px)': {
         maxWidth: '100%',

@@ -2,7 +2,7 @@ import {Button} from "@/ui/Buttons/Button";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import {Stack, Typography} from "@mui/material";
 import {useI18n} from "@/utils/hooks/useI18n";
-import {FormControlButtonProps} from "@/interfaces/FormControlButtonProps";
+import {FormControlButtonProps} from "@/contracts/interfaces/FormControlButtonProps";
 
 const FIRST_STEP = 1;
 

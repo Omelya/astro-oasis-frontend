@@ -28,7 +28,13 @@ export default function Login() {
     });
 
     return (
-        <BlurStack width={'25%'} height={'30%'} margin={'0 auto'} padding={'2%'}>
+        <BlurStack
+            width={'25%'}
+            height={'30%'}
+            margin={'0 auto'}
+            padding={'2%'}
+            alignSelf={'center'}
+        >
             <Title
                 isAuth={true}
                 title={locale?.login.title}

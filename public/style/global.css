@@ -9,3 +9,23 @@ body {
     background-size: cover;
     height: 100vh;
 }
+
+.custom-slider::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-slider::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 5px 0 0 5px;
+}
+
+.custom-slider::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+@supports (not selector(::-webkit-scrollbar)) {
+    .custom-slider {
+        scrollbar-width: auto;
+        scrollbar-color: transparent transparent;
+    }
+}
